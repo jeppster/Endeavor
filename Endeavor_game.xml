@@ -1230,129 +1230,42 @@
     <initial_location name="location_init_token">
       <piece_type type="arc">
         <sides paths="Endeavor_Arc_UpsideUp.png">
-          <piece>arc_1</piece>
-          <piece>arc_2</piece>
-          <piece>arc_3</piece>
-          <piece>arc_4</piece>
-          <piece>arc_5</piece>
-          <piece>arc_6</piece>
-          <piece>arc_7</piece>
-          <piece>arc_8</piece>
-          <piece>arc_9</piece>
-          <piece>arc_10</piece>
-          <piece>arc_11</piece>
-          <piece>arc_12</piece>
-          <piece>arc_13</piece>
-          <piece>arc_14</piece>
-          <piece>arc_15</piece>
-          <piece>arc_16</piece>
-          <piece>arc_17</piece>
+          <piece count="17">arc</piece>
         </sides>
       </piece_type>
       <piece_type type="cul">
         <sides paths="Endeavor_Cul_UpsideUp.png">
-          <piece>cul_1</piece>
-          <piece>cul_2</piece>
-          <piece>cul_3</piece>
-          <piece>cul_4</piece>
-          <piece>cul_5</piece>
-          <piece>cul_6</piece>
-          <piece>cul_7</piece>
-          <piece>cul_8</piece>
-          <piece>cul_9</piece>
-          <piece>cul_10</piece>
-          <piece>cul_11</piece>
-          <piece>cul_12</piece>
-          <piece>cul_13</piece>
-          <piece>cul_14</piece>
-          <piece>cul_15</piece>
-          <piece>cul_16</piece>
-          <piece>cul_17</piece>
-          <piece>cul_18</piece>
-          <piece>cul_19</piece>
-          <piece>cul_20</piece>
+          <piece count="20">cul</piece>
         </sides>
       </piece_type>
       <piece_type type="fin">
         <sides paths="Endeavor_Fin_UpsideUp.png">
-          <piece>fin_1</piece>
-          <piece>fin_2</piece>
-          <piece>fin_3</piece>
-          <piece>fin_4</piece>
-          <piece>fin_5</piece>
-          <piece>fin_6</piece>
-          <piece>fin_7</piece>
-          <piece>fin_8</piece>
-          <piece>fin_9</piece>
-          <piece>fin_10</piece>
-          <piece>fin_11</piece>
-          <piece>fin_12</piece>
-          <piece>fin_13</piece>
-          <piece>fin_14</piece>
-          <piece>fin_15</piece>
-          <piece>fin_16</piece>
-          <piece>fin_17</piece>
+          <piece count="17">fin</piece>
         </sides>
       </piece_type>
       <piece_type type="pol">
         <sides paths="Endeavor_Pol_UpsideUp.png">
-          <piece>pol_1</piece>
-          <piece>pol_2</piece>
-          <piece>pol_3</piece>
-          <piece>pol_4</piece>
-          <piece>pol_5</piece>
-          <piece>pol_6</piece>
-          <piece>pol_7</piece>
-          <piece>pol_8</piece>
-          <piece>pol_9</piece>
-          <piece>pol_10</piece>
-          <piece>pol_11</piece>
-          <piece>pol_12</piece>
-          <piece>pol_13</piece>
-          <piece>pol_14</piece>
-          <piece>pol_15</piece>
-          <piece>pol_16</piece>
-          <piece>pol_17</piece>
-          <piece>pol_18</piece>
-          <piece>pol_19</piece>
-          <piece>pol_20</piece>
-          <piece>pol_21</piece>
-          <piece>pol_22</piece>
-          <piece>pol_23</piece>
-          <piece>pol_24</piece>
-          <piece>pol_25</piece>
+          <piece count="25">pol</piece>
         </sides>
       </piece_type>
       <piece_type type="occdraw">
         <sides paths="Endeavor_OccDraw_UpsideUp.png">
-          <piece>occdraw_1</piece>
-          <piece>occdraw_2</piece>
-          <piece>occdraw_3</piece>
-          <piece>occdraw_4</piece>
-          <piece>occdraw_5</piece>
-          <piece>occdraw_6</piece>
+          <piece count="6">occdraw</piece>
         </sides>
       </piece_type>
       <piece_type type="shipdraw">
         <sides paths="Endeavor_ShipDraw_UpsideUp.png">
-          <piece>shipdraw_1</piece>
-          <piece>shipdraw_2</piece>
-          <piece>shipdraw_3</piece>
-          <piece>shipdraw_4</piece>
-          <piece>shipdraw_5</piece>
-          <piece>shipdraw_6</piece>
+          <piece count="6">shipdraw</piece>
         </sides>
       </piece_type>
       <piece_type type="pmt">
         <sides paths="Endeavor_Pmt_UpsideUp.png">
-          <piece>pmt_1</piece>
-          <piece>pmt_2</piece>
+          <piece count="2">pmt</piece>
         </sides>
       </piece_type>
       <piece_type type="att">
         <sides paths="Endeavor_Att_UpsideUp.png">
-          <piece>att_1</piece>
-          <piece>att_2</piece>
+          <piece count="2">att</piece>
         </sides>
       </piece_type>
     </initial_location>
@@ -1362,180 +1275,35 @@
   <initial_location name="location_black_token">
     <piece_type type="black">
       <sides paths="Endeavor_Player_Black.png,Endeavor_Player_Black.png,Endeavor_Player_Black_Small.png">
-        <piece>black_1</piece>
-        <piece>black_2</piece>
-        <piece>black_3</piece>
-        <piece>black_4</piece>
-        <piece>black_5</piece>
-        <piece>black_6</piece>
-        <piece>black_7</piece>
-        <piece>black_8</piece>
-        <piece>black_9</piece>
-        <piece>black_10</piece>
-        <piece>black_11</piece>
-        <piece>black_12</piece>
-        <piece>black_13</piece>
-        <piece>black_14</piece>
-        <piece>black_15</piece>
-        <piece>black_16</piece>
-        <piece>black_17</piece>
-        <piece>black_18</piece>
-        <piece>black_19</piece>
-        <piece>black_20</piece>
-        <piece>black_21</piece>
-        <piece>black_22</piece>
-        <piece>black_23</piece>
-        <piece>black_24</piece>
-        <piece>black_25</piece>
-        <piece>black_26</piece>
-        <piece>black_27</piece>
-        <piece>black_28</piece>
-        <piece>black_29</piece>
-        <piece>black_30</piece>
+        <piece count="30">black</piece>
       </sides>
     </piece_type>
   </initial_location>
   <initial_location name="location_green_token">
     <piece_type type="green">
       <sides paths="Endeavor_Player_Green.png,Endeavor_Player_Green.png,Endeavor_Player_Green_Small.png">
-        <piece>green_1</piece>
-        <piece>green_2</piece>
-        <piece>green_3</piece>
-        <piece>green_4</piece>
-        <piece>green_5</piece>
-        <piece>green_6</piece>
-        <piece>green_7</piece>
-        <piece>green_8</piece>
-        <piece>green_9</piece>
-        <piece>green_10</piece>
-        <piece>green_11</piece>
-        <piece>green_12</piece>
-        <piece>green_13</piece>
-        <piece>green_14</piece>
-        <piece>green_15</piece>
-        <piece>green_16</piece>
-        <piece>green_17</piece>
-        <piece>green_18</piece>
-        <piece>green_19</piece>
-        <piece>green_20</piece>
-        <piece>green_21</piece>
-        <piece>green_22</piece>
-        <piece>green_23</piece>
-        <piece>green_24</piece>
-        <piece>green_25</piece>
-        <piece>green_26</piece>
-        <piece>green_27</piece>
-        <piece>green_28</piece>
-        <piece>green_29</piece>
-        <piece>green_30</piece>
+        <piece count="30">green</piece>
       </sides>
     </piece_type>
   </initial_location>
   <initial_location name="location_purple_token">
     <piece_type type="purple">
       <sides paths="Endeavor_Player_Purple.png,Endeavor_Player_Purple.png,Endeavor_Player_Purple_Small.png">
-        <piece>purple_1</piece>
-        <piece>purple_2</piece>
-        <piece>purple_3</piece>
-        <piece>purple_4</piece>
-        <piece>purple_5</piece>
-        <piece>purple_6</piece>
-        <piece>purple_7</piece>
-        <piece>purple_8</piece>
-        <piece>purple_9</piece>
-        <piece>purple_10</piece>
-        <piece>purple_11</piece>
-        <piece>purple_12</piece>
-        <piece>purple_13</piece>
-        <piece>purple_14</piece>
-        <piece>purple_15</piece>
-        <piece>purple_16</piece>
-        <piece>purple_17</piece>
-        <piece>purple_18</piece>
-        <piece>purple_19</piece>
-        <piece>purple_20</piece>
-        <piece>purple_21</piece>
-        <piece>purple_22</piece>
-        <piece>purple_23</piece>
-        <piece>purple_24</piece>
-        <piece>purple_25</piece>
-        <piece>purple_26</piece>
-        <piece>purple_27</piece>
-        <piece>purple_28</piece>
-        <piece>purple_29</piece>
-        <piece>purple_30</piece>
+        <piece count="30">purple</piece>
       </sides>
     </piece_type>
   </initial_location>
   <initial_location name="location_red_token">
     <piece_type type="red">
       <sides paths="Endeavor_Player_Red.png,Endeavor_Player_Red.png,Endeavor_Player_Red_Small.png">
-        <piece>red_1</piece>
-        <piece>red_2</piece>
-        <piece>red_3</piece>
-        <piece>red_4</piece>
-        <piece>red_5</piece>
-        <piece>red_6</piece>
-        <piece>red_7</piece>
-        <piece>red_8</piece>
-        <piece>red_9</piece>
-        <piece>red_10</piece>
-        <piece>red_11</piece>
-        <piece>red_12</piece>
-        <piece>red_13</piece>
-        <piece>red_14</piece>
-        <piece>red_15</piece>
-        <piece>red_16</piece>
-        <piece>red_17</piece>
-        <piece>red_18</piece>
-        <piece>red_19</piece>
-        <piece>red_20</piece>
-        <piece>red_21</piece>
-        <piece>red_22</piece>
-        <piece>red_23</piece>
-        <piece>red_24</piece>
-        <piece>red_25</piece>
-        <piece>red_26</piece>
-        <piece>red_27</piece>
-        <piece>red_28</piece>
-        <piece>red_29</piece>
-        <piece>red_30</piece>
+        <piece count="30">red</piece>
       </sides>
     </piece_type>
   </initial_location>
   <initial_location name="location_white_token">
     <piece_type type="white">
       <sides paths="Endeavor_Player_White.png,Endeavor_Player_White.png,Endeavor_Player_White_Small.png">
-        <piece>white_1</piece>
-        <piece>white_2</piece>
-        <piece>white_3</piece>
-        <piece>white_4</piece>
-        <piece>white_5</piece>
-        <piece>white_6</piece>
-        <piece>white_7</piece>
-        <piece>white_8</piece>
-        <piece>white_9</piece>
-        <piece>white_10</piece>
-        <piece>white_11</piece>
-        <piece>white_12</piece>
-        <piece>white_13</piece>
-        <piece>white_14</piece>
-        <piece>white_15</piece>
-        <piece>white_16</piece>
-        <piece>white_17</piece>
-        <piece>white_18</piece>
-        <piece>white_19</piece>
-        <piece>white_20</piece>
-        <piece>white_21</piece>
-        <piece>white_22</piece>
-        <piece>white_23</piece>
-        <piece>white_24</piece>
-        <piece>white_25</piece>
-        <piece>white_26</piece>
-        <piece>white_27</piece>
-        <piece>white_28</piece>
-        <piece>white_29</piece>
-        <piece>white_30</piece>
+        <piece count="30">white</piece>
       </sides>
     </piece_type>
   </initial_location>
@@ -1727,114 +1495,84 @@
   <piece_type type="car">
     <initial_location name="building_location_car">
       <sides paths="Endeavor_Buildings_Cartographer.png">
-        <piece>building_car1</piece>
-        <piece>building_car2</piece>
+        <piece count="2">building_car</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="uni">
     <initial_location name="building_location_uni">
       <sides paths="Endeavor_Buildings_University.png">
-        <piece>building_uni1</piece>
-        <piece>building_uni2</piece>
+        <piece count="2">building_uni</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="tra">
     <initial_location name="building_location_tra">
       <sides paths="Endeavor_Buildings_TradeOffice.png">
-        <piece>building_tra1</piece>
-        <piece>building_tra2</piece>
+        <piece count="2">building_tra</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="doc">
     <initial_location name="building_location_doc">
       <sides paths="Endeavor_Buildings_Docks.png">
-        <piece>building_doc1</piece>
-        <piece>building_doc2</piece>
-        <piece>building_doc3</piece>
+        <piece count="3">building_doc</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="the">
     <initial_location name="building_location_the">
       <sides paths="Endeavor_Buildings_Theatre.png">
-        <piece>building_the1</piece>
-        <piece>building_the2</piece>
-        <piece>building_the3</piece>
+        <piece count="3">building_the</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="for">
     <initial_location name="building_location_for">
       <sides paths="Endeavor_Buildings_Fortress.png">
-        <piece>building_for1</piece>
-        <piece>building_for2</piece>
-        <piece>building_for3</piece>
+        <piece count="3">building_for</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="gui">
     <initial_location name="building_location_gui">
       <sides paths="Endeavor_Buildings_GuildHall.png">
-        <piece>building_gui1</piece>
-        <piece>building_gui2</piece>
-        <piece>building_gui3</piece>
-        <piece>building_gui4</piece>
+        <piece count="4">building_gui</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="bar">
     <initial_location name="building_location_bar">
       <sides paths="Endeavor_Buildings_Barracks.png">
-        <piece>building_bar1</piece>
-        <piece>building_bar2</piece>
-        <piece>building_bar3</piece>
-        <piece>building_bar4</piece>
+        <piece count="4">building_bar</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="ban">
     <initial_location name="building_location_ban">
       <sides paths="Endeavor_Buildings_Bank.png">
-        <piece>building_ban1</piece>
-        <piece>building_ban2</piece>
-        <piece>building_ban3</piece>
-        <piece>building_ban4</piece>
+        <piece count="4">building_ban</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="shi">
     <initial_location name="building_location_shi">
       <sides paths="Endeavor_Buildings_Shipyard.png">
-        <piece>building_shi1</piece>
-        <piece>building_shi2</piece>
-        <piece>building_shi3</piece>
-        <piece>building_shi4</piece>
-        <piece>building_shi5</piece>
+        <piece count="5">building_shi</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="wor">
     <initial_location name="building_location_wor">
       <sides paths="Endeavor_Buildings_Workshop.png">
-        <piece>building_wor1</piece>
-        <piece>building_wor2</piece>
-        <piece>building_wor3</piece>
-        <piece>building_wor4</piece>
-        <piece>building_wor5</piece>
+        <piece count="5">building_wor</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="mar">
     <initial_location name="building_location_mar">
       <sides paths="Endeavor_Buildings_Market.png">
-        <piece>building_mar1</piece>
-        <piece>building_mar2</piece>
-        <piece>building_mar3</piece>
-        <piece>building_mar4</piece>
-        <piece>building_mar5</piece>
+        <piece count="5">building_mar</piece>
       </sides>
     </initial_location>
   </piece_type>
