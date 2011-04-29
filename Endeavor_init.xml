@@ -1,0 +1,124 @@
+<moves xml_version="1.1">
+	<action type="quad_tap_name" name="arc_1"></action>
+	
+	<!--NorthAmerica Shipping Track-->
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="126" to_y="25" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="156" to_y="30" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="180" to_y="48" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="192" to_y="76" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="193" to_y="106" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="192" to_y="137" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="189" to_y="167" />
+	
+	<!--NorthAmerica Cities-->
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="115" to_y="93" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="53" to_y="107" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="88" to_y="149" />
+	<action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="34" to_y="189" />
+
+  <!--India Shipping Track-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="405" to_y="26" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="435" to_y="29" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="463" to_y="39" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="482" to_y="62" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="483" to_y="92" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="474" to_y="121" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="452" to_y="141" />
+
+  <!--India Cities-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="460" to_y="175" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="429" to_y="202" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="354" to_y="106" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="318" to_y="168" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="286" to_y="212" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="286" to_y="140" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="254" to_y="31" />
+
+  <!--Far East Shipping Track-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="654" to_y="26" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="684" to_y="24" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="714" to_y="28" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="740" to_y="43" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="749" to_y="71" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="744" to_y="101" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="735" to_y="130" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="727" to_y="159" />
+
+  <!--Far East Cities-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="688" to_y="225" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="658" to_y="159" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="674" to_y="75" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="621" to_y="92" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="559" to_y="109" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="542" to_y="163" />
+
+  <!--Europe Cities-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="303" to_y="271" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="424" to_y="282" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="484" to_y="273" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="565" to_y="313" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="559" to_y="261" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="625" to_y="318" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="638" to_y="443" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="667" to_y="479" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="639" to_y="540" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="587" to_y="482" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="537" to_y="538" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="561" to_y="446" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="511" to_y="397" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="505" to_y="353" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="444" to_y="358" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="339" to_y="314" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="327" to_y="389" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="310" to_y="515" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="376" to_y="408" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="449" to_y="508" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="456" to_y="547" />
+
+  <!--Africa Shipping Track-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="425" to_y="741" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="396" to_y="732" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="373" to_y="712" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="361" to_y="685" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="358" to_y="655" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="361" to_y="625" />
+
+  <!--Africa Cities-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="446" to_y="619" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="430" to_y="681" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="495" to_y="651" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="594" to_y="621" />
+  
+  <!--South America Shipping Track-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="291" to_y="705" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="284" to_y="675" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="265" to_y="652" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="244" to_y="629" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="257" to_y="602" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="276" to_y="579" />
+
+  <!--South America Cities-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="119" to_y="717" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="65" to_y="687" />
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="129" to_y="662" />
+  
+  <!--Caribbean Shipping Track-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="28" to_y="442" />13,427
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="27" to_y="411" />12,396
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="28" to_y="381" />13,366
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="31" to_y="351" />16,336
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="38" to_y="321" />23,306
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="51" to_y="294" />36,279
+
+  <!--Caribbean Cities-->
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="87" to_y="338" />72,323
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="102" to_y="434" />87,419
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="102" to_y="528" />87,513
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="165" to_y="309" />150,294
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="177" to_y="407" />162,392
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="168" to_y="496" />153,481
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="223" to_y="308" />208,293
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="199" to_y="342" />184,327
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="229" to_y="426" />214,411
+  <action type="move_piece" board="0" x="845" y="362" to_board="0" to_x="231" to_y="508" />216,493
+</moves>
