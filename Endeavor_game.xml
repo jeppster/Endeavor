@@ -1030,115 +1030,126 @@
     </size>
   </location_type>
   <!--end solo tabbed building first player location-->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!--PIECES PIECES PIECES PIECES PIECES PIECES-->
+  <!--PIECES PIECES PIECES PIECES PIECES PIECES-->
+  <!--PIECES PIECES PIECES PIECES PIECES PIECES-->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
   <!--card pieces -->
   <triple_tap action="send_to_back" args="">
     <initial_rotation value="-90">
       <initial_location name="location_afr_cards">
         <piece_type type="afr">
-          <sides paths="Endeavor_Cards_Afr_5.png,Endeavor_Cards_Afr_5_Left.png,Endeavor_Cards_Afr_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Afr_5.png">
             <piece>cards_afr_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Afr_4.png,Endeavor_Cards_Afr_4_Left.png,Endeavor_Cards_Afr_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Afr_4.png">
             <piece>cards_afr_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Afr_3.png,Endeavor_Cards_Afr_3_Left.png,Endeavor_Cards_Afr_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Afr_3.png">
             <piece>cards_afr_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Afr_2.png,Endeavor_Cards_Afr_2_Left.png,Endeavor_Cards_Afr_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Afr_2.png">
             <piece>cards_afr_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Afr_1.png,Endeavor_Cards_Afr_1_Left.png,Endeavor_Cards_Afr_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Afr_1.png">
             <piece>cards_afr_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Afr_Gov.png,Endeavor_Cards_Afr_Gov_Left.png,Endeavor_Cards_Afr_Gov_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Afr_Gov.png">
             <piece>cards_afr_gov</piece>
           </sides>
         </piece_type>
       </initial_location>
       <initial_location name="location_sou_cards">
         <piece_type type="sou">
-          <sides paths="Endeavor_Cards_Sou_5.png,Endeavor_Cards_Sou_5_Left.png,Endeavor_Cards_Sou_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sou_5.png">
             <piece>cards_sou_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sou_4.png,Endeavor_Cards_Sou_4_Left.png,Endeavor_Cards_Sou_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sou_4.png">
             <piece>cards_sou_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sou_3.png,Endeavor_Cards_Sou_3_Left.png,Endeavor_Cards_Sou_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sou_3.png">
             <piece>cards_sou_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sou_2.png,Endeavor_Cards_Sou_2_Left.png,Endeavor_Cards_Sou_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sou_2.png">
             <piece>cards_sou_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sou_1.png,Endeavor_Cards_Sou_1_Left.png,Endeavor_Cards_Sou_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sou_1.png">
             <piece>cards_sou_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sou_Gov.png,Endeavor_Cards_Sou_Gov_Left.png,Endeavor_Cards_Sou_Gov_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sou_Gov.png">
             <piece>cards_sou_gov</piece>
           </sides>
         </piece_type>
       </initial_location>
       <initial_location name="location_nor_cards">
         <piece_type type="nor">
-          <sides paths="Endeavor_Cards_Nor_5.png,Endeavor_Cards_Nor_5_Left.png,Endeavor_Cards_Nor_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Nor_5.png">
             <piece>cards_nor_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Nor_4.png,Endeavor_Cards_Nor_4_Left.png,Endeavor_Cards_Nor_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Nor_4.png">
             <piece>cards_nor_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Nor_3.png,Endeavor_Cards_Nor_3_Left.png,Endeavor_Cards_Nor_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Nor_3.png">
             <piece>cards_nor_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Nor_2.png,Endeavor_Cards_Nor_2_Left.png,Endeavor_Cards_Nor_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Nor_2.png">
             <piece>cards_nor_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Nor_1.png,Endeavor_Cards_Nor_1_Left.png,Endeavor_Cards_Nor_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Nor_1.png">
             <piece>cards_nor_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Nor_Gov.png,Endeavor_Cards_Nor_Gov_Left.png,Endeavor_Cards_Nor_Gov_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Nor_Gov.png">
             <piece>cards_nor_gov</piece>
           </sides>
         </piece_type>
       </initial_location>
       <initial_location name="location_ind_cards">
         <piece_type type="ind">
-          <sides paths="Endeavor_Cards_Ind_5.png,Endeavor_Cards_Ind_5_Left.png,Endeavor_Cards_Ind_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Ind_5.png">
             <piece>cards_ind_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Ind_4.png,Endeavor_Cards_Ind_4_Left.png,Endeavor_Cards_Ind_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Ind_4.png">
             <piece>cards_ind_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Ind_3.png,Endeavor_Cards_Ind_3_Left.png,Endeavor_Cards_Ind_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Ind_3.png">
             <piece>cards_ind_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Ind_2.png,Endeavor_Cards_Ind_2_Left.png,Endeavor_Cards_Ind_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Ind_2.png">
             <piece>cards_ind_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Ind_1.png,Endeavor_Cards_Ind_1_Left.png,Endeavor_Cards_Ind_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Ind_1.png">
             <piece>cards_ind_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Ind_Gov.png,Endeavor_Cards_Ind_Gov_Left.png,Endeavor_Cards_Ind_Gov_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Ind_Gov.png">
             <piece>cards_ind_gov</piece>
           </sides>
         </piece_type>
       </initial_location>
       <initial_location name="location_far_cards">
         <piece_type type="far">
-          <sides paths="Endeavor_Cards_Far_5.png,Endeavor_Cards_Far_5_Left.png,Endeavor_Cards_Far_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Far_5.png">
             <piece>cards_far_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Far_4.png,Endeavor_Cards_Far_4_Left.png,Endeavor_Cards_Far_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Far_4.png">
             <piece>cards_far_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Far_3.png,Endeavor_Cards_Far_3_Left.png,Endeavor_Cards_Far_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Far_3.png">
             <piece>cards_far_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Far_2.png,Endeavor_Cards_Far_2_Left.png,Endeavor_Cards_Far_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Far_2.png">
             <piece>cards_far_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Far_1.png,Endeavor_Cards_Far_1_Left.png,Endeavor_Cards_Far_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Far_1.png">
             <piece>cards_far_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Far_Gov.png,Endeavor_Cards_Far_Gov_Left.png,Endeavor_Cards_Far_Gov_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Far_Gov.png">
             <piece>cards_far_gov</piece>
           </sides>
         </piece_type>
@@ -1147,66 +1158,66 @@
     <initial_rotation value="0">
       <initial_location name="location_carib_cards">
         <piece_type type="carib">
-          <sides paths="Endeavor_Cards_Car_5.png,Endeavor_Cards_Car_5.png,Endeavor_Cards_Car_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Car_5.png">
             <piece>cards_car_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Car_4.png,Endeavor_Cards_Car_4.png,Endeavor_Cards_Car_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Car_4.png">
             <piece>cards_car_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Car_3.png,Endeavor_Cards_Car_3.png,Endeavor_Cards_Car_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Car_3.png">
             <piece>cards_car_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Car_2.png,Endeavor_Cards_Car_2.png,Endeavor_Cards_Car_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Car_2.png">
             <piece>cards_car_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Car_1.png,Endeavor_Cards_Car_1.png,Endeavor_Cards_Car_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Car_1.png">
             <piece>cards_car_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Car_Gov.png,Endeavor_Cards_Car_Gov.png,Endeavor_Cards_Car_Gov_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Car_Gov.png">
             <piece>cards_car_gov</piece>
           </sides>
         </piece_type>
       </initial_location>
       <initial_location name="location_med_cards">
         <piece_type type="med">
-          <sides paths="Endeavor_Cards_Med_5.png,Endeavor_Cards_Med_5.png,Endeavor_Cards_Med_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Med_5.png">
             <piece>cards_med_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Med_4.png,Endeavor_Cards_Med_4.png,Endeavor_Cards_Med_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Med_4.png">
             <piece>cards_med_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Med_3.png,Endeavor_Cards_Med_3.png,Endeavor_Cards_Med_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Med_3.png">
             <piece>cards_med_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Med_2.png,Endeavor_Cards_Med_2.png,Endeavor_Cards_Med_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Med_2.png">
             <piece>cards_med_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Med_1.png,Endeavor_Cards_Med_1.png,Endeavor_Cards_Med_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Med_1.png">
             <piece>cards_med_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Med_0.png,Endeavor_Cards_Med_0.png,Endeavor_Cards_Med_0_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Med_0.png">
             <piece>cards_med_gov</piece>
           </sides>
         </piece_type>
       </initial_location>
       <initial_location name="location_sla_cards">
         <piece_type type="sla">
-          <sides paths="Endeavor_Cards_Sla_5.png,Endeavor_Cards_Sla_5.png,Endeavor_Cards_Sla_5_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sla_5.png">
             <piece>cards_sla_5</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sla_4.png,Endeavor_Cards_Sla_4.png,Endeavor_Cards_Sla_4_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sla_4.png">
             <piece>cards_sla_4</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sla_3.png,Endeavor_Cards_Sla_3.png,Endeavor_Cards_Sla_3_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sla_3.png">
             <piece>cards_sla_3</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sla_2.png,Endeavor_Cards_Sla_2.png,Endeavor_Cards_Sla_2_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sla_2.png">
             <piece>cards_sla_2</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sla_1.png,Endeavor_Cards_Sla_1.png,Endeavor_Cards_Sla_1_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sla_1.png">
             <piece>cards_sla_1</piece>
           </sides>
-          <sides paths="Endeavor_Cards_Sla_0.png,Endeavor_Cards_Sla_0.png,Endeavor_Cards_Sla_0_UpsideDown.png">
+          <sides paths="Endeavor_Cards_Sla_0.png">
             <piece>cards_sla_gov</piece>
           </sides>
         </piece_type>
@@ -1218,7 +1229,7 @@
   <quad_tap action="shuffle_location" args="">
     <initial_location name="location_init_token">
       <piece_type type="arc">
-        <sides paths="Endeavor_Arc_UpsideUp.png,Endeavor_Arc_UpsideDown.png">
+        <sides paths="Endeavor_Arc_UpsideUp.png">
           <piece>arc_1</piece>
           <piece>arc_2</piece>
           <piece>arc_3</piece>
@@ -1239,7 +1250,7 @@
         </sides>
       </piece_type>
       <piece_type type="cul">
-        <sides paths="Endeavor_Cul_UpsideUp.png,Endeavor_Cul_UpsideDown.png">
+        <sides paths="Endeavor_Cul_UpsideUp.png">
           <piece>cul_1</piece>
           <piece>cul_2</piece>
           <piece>cul_3</piece>
@@ -1263,7 +1274,7 @@
         </sides>
       </piece_type>
       <piece_type type="fin">
-        <sides paths="Endeavor_Fin_UpsideUp.png,Endeavor_Fin_UpsideDown.png">
+        <sides paths="Endeavor_Fin_UpsideUp.png">
           <piece>fin_1</piece>
           <piece>fin_2</piece>
           <piece>fin_3</piece>
@@ -1284,7 +1295,7 @@
         </sides>
       </piece_type>
       <piece_type type="pol">
-        <sides paths="Endeavor_Pol_UpsideUp.png,Endeavor_Pol_UpsideDown.png">
+        <sides paths="Endeavor_Pol_UpsideUp.png">
           <piece>pol_1</piece>
           <piece>pol_2</piece>
           <piece>pol_3</piece>
@@ -1313,7 +1324,7 @@
         </sides>
       </piece_type>
       <piece_type type="occdraw">
-        <sides paths="Endeavor_OccDraw_UpsideUp.png,Endeavor_OccDraw_UpsideDown.png">
+        <sides paths="Endeavor_OccDraw_UpsideUp.png">
           <piece>occdraw_1</piece>
           <piece>occdraw_2</piece>
           <piece>occdraw_3</piece>
@@ -1323,7 +1334,7 @@
         </sides>
       </piece_type>
       <piece_type type="shipdraw">
-        <sides paths="Endeavor_ShipDraw_UpsideUp.png,Endeavor_ShipDraw_UpsideDown.png">
+        <sides paths="Endeavor_ShipDraw_UpsideUp.png">
           <piece>shipdraw_1</piece>
           <piece>shipdraw_2</piece>
           <piece>shipdraw_3</piece>
@@ -1333,13 +1344,13 @@
         </sides>
       </piece_type>
       <piece_type type="pmt">
-        <sides paths="Endeavor_Pmt_UpsideUp.png,Endeavor_Pmt_UpsideDown.png">
+        <sides paths="Endeavor_Pmt_UpsideUp.png">
           <piece>pmt_1</piece>
           <piece>pmt_2</piece>
         </sides>
       </piece_type>
       <piece_type type="att">
-        <sides paths="Endeavor_Att_UpsideUp.png,Endeavor_Att_UpsideDown.png">
+        <sides paths="Endeavor_Att_UpsideUp.png">
           <piece>att_1</piece>
           <piece>att_2</piece>
         </sides>
@@ -1694,28 +1705,28 @@
   <!--Building pieces; they all start in stock tab; they all have a different orientation for each player-->
   <piece_type type="mus">
     <initial_location name="building_location_mus">
-      <sides paths="Endeavor_Buildings_Museum.png,Endeavor_Buildings_Museum_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Museum.png">
         <piece>building_mus</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="par">
     <initial_location name="building_location_par">
-      <sides paths="Endeavor_Buildings_Parliament.png,Endeavor_Buildings_Parliament_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Parliament.png">
         <piece>building_par</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="exc">
     <initial_location name="building_location_exc">
-      <sides paths="Endeavor_Buildings_Exchange.png,Endeavor_Buildings_Exchange_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Exchange.png">
         <piece>building_exc</piece>
       </sides>
     </initial_location>
   </piece_type>
   <piece_type type="car">
     <initial_location name="building_location_car">
-      <sides paths="Endeavor_Buildings_Cartographer.png,Endeavor_Buildings_Cartographer_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Cartographer.png">
         <piece>building_car1</piece>
         <piece>building_car2</piece>
       </sides>
@@ -1723,7 +1734,7 @@
   </piece_type>
   <piece_type type="uni">
     <initial_location name="building_location_uni">
-      <sides paths="Endeavor_Buildings_University.png,Endeavor_Buildings_University_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_University.png">
         <piece>building_uni1</piece>
         <piece>building_uni2</piece>
       </sides>
@@ -1731,7 +1742,7 @@
   </piece_type>
   <piece_type type="tra">
     <initial_location name="building_location_tra">
-      <sides paths="Endeavor_Buildings_TradeOffice.png,Endeavor_Buildings_TradeOffice_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_TradeOffice.png">
         <piece>building_tra1</piece>
         <piece>building_tra2</piece>
       </sides>
@@ -1739,7 +1750,7 @@
   </piece_type>
   <piece_type type="doc">
     <initial_location name="building_location_doc">
-      <sides paths="Endeavor_Buildings_Docks.png,Endeavor_Buildings_Docks_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Docks.png">
         <piece>building_doc1</piece>
         <piece>building_doc2</piece>
         <piece>building_doc3</piece>
@@ -1748,7 +1759,7 @@
   </piece_type>
   <piece_type type="the">
     <initial_location name="building_location_the">
-      <sides paths="Endeavor_Buildings_Theatre.png,Endeavor_Buildings_Theatre_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Theatre.png">
         <piece>building_the1</piece>
         <piece>building_the2</piece>
         <piece>building_the3</piece>
@@ -1757,7 +1768,7 @@
   </piece_type>
   <piece_type type="for">
     <initial_location name="building_location_for">
-      <sides paths="Endeavor_Buildings_Fortress.png,Endeavor_Buildings_Fortress_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Fortress.png">
         <piece>building_for1</piece>
         <piece>building_for2</piece>
         <piece>building_for3</piece>
@@ -1766,7 +1777,7 @@
   </piece_type>
   <piece_type type="gui">
     <initial_location name="building_location_gui">
-      <sides paths="Endeavor_Buildings_GuildHall.png,Endeavor_Buildings_GuildHall_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_GuildHall.png">
         <piece>building_gui1</piece>
         <piece>building_gui2</piece>
         <piece>building_gui3</piece>
@@ -1776,7 +1787,7 @@
   </piece_type>
   <piece_type type="bar">
     <initial_location name="building_location_bar">
-      <sides paths="Endeavor_Buildings_Barracks.png,Endeavor_Buildings_Barracks_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Barracks.png">
         <piece>building_bar1</piece>
         <piece>building_bar2</piece>
         <piece>building_bar3</piece>
@@ -1786,7 +1797,7 @@
   </piece_type>
   <piece_type type="ban">
     <initial_location name="building_location_ban">
-      <sides paths="Endeavor_Buildings_Bank.png,Endeavor_Buildings_Bank_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Bank.png">
         <piece>building_ban1</piece>
         <piece>building_ban2</piece>
         <piece>building_ban3</piece>
@@ -1796,7 +1807,7 @@
   </piece_type>
   <piece_type type="shi">
     <initial_location name="building_location_shi">
-      <sides paths="Endeavor_Buildings_Shipyard.png,Endeavor_Buildings_Shipyard_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Shipyard.png">
         <piece>building_shi1</piece>
         <piece>building_shi2</piece>
         <piece>building_shi3</piece>
@@ -1807,7 +1818,7 @@
   </piece_type>
   <piece_type type="wor">
     <initial_location name="building_location_wor">
-      <sides paths="Endeavor_Buildings_Workshop.png,Endeavor_Buildings_Workshop_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Workshop.png">
         <piece>building_wor1</piece>
         <piece>building_wor2</piece>
         <piece>building_wor3</piece>
@@ -1818,7 +1829,7 @@
   </piece_type>
   <piece_type type="mar">
     <initial_location name="building_location_mar">
-      <sides paths="Endeavor_Buildings_Market.png,Endeavor_Buildings_Market_UpsideDown.png">
+      <sides paths="Endeavor_Buildings_Market.png">
         <piece>building_mar1</piece>
         <piece>building_mar2</piece>
         <piece>building_mar3</piece>
