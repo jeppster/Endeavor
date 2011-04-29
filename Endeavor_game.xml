@@ -1,5 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <game xml_version="1.4">
-
   <sides paths="Endeavor_background.png">
     <board>Main board</board>
   </sides>
@@ -12,13 +12,11 @@
   <sides paths="Endeavor_Player2.png">
     <board edge="1" position="0.8">Solo Buildings tab</board>
   </sides>
-
   <!--Card Locations-->
   <location_type type="stack">
     <location_display type="no_display">
       <size width="90" height="60">
-        <location_in_action action="set_side" args="1">
-
+        <location_in_action action="set_rotation" args="-90">
           <valid_types types="afr">
             <corner_coord board="0" x="443" y="698">
               <location>location_afr_cards</location>
@@ -44,12 +42,10 @@
               <location>location_far_cards</location>
             </corner_coord>
           </valid_types>
-
         </location_in_action>
       </size>
       <size width="60" height="90">
-        <location_in_action action="set_side" args="0">
-
+        <location_in_action action="set_rotation" args="0">
           <valid_types types="carib">
             <corner_coord board="0" x="15" y="461">
               <location>location_carib_cards</location>
@@ -65,11 +61,9 @@
               <location>location_sla_cards</location>
             </corner_coord>
           </valid_types>
-
         </location_in_action>
-
         <valid_types types="afr,sou,carib,nor,ind,far,med,sla">
-          <location_in_action action="set_side" args="0">
+          <location_in_action action="set_rotation" args="0">
             <corner_coord board="0" x="780" y="435">
               <location>location_player1_cards</location>
             </corner_coord>
@@ -77,24 +71,22 @@
               <location>location_discard_cards</location>
             </corner_coord>
           </location_in_action>
-          <location_in_action action="set_side" args="2">
+          <location_in_action action="set_rotation" args="180">
             <corner_coord board="0" x="780" y="245">
               <location>location_player2_cards</location>
             </corner_coord>
           </location_in_action>
         </valid_types>
-
       </size>
     </location_display>
   </location_type>
   <!--end card locations-->
-
   <!--Board Token Locations-->
   <size width="30" height="30">
     <location_type type="cell">
       <location_display type="no_display">
         <valid_types types="arc,cul,fin,pol,att,occdraw,pmt,shipdraw,black,green,purple,red,white">
-          <location_in_action action="random_side" args="v2,0_1">
+          <location_in_action action="random_rotation" args="0_180">
             <corner_coord board="0" x="112" y="10">
               <location>location_nor_ship_1</location>
             </corner_coord>
@@ -128,7 +120,6 @@
             <corner_coord board="0" x="19" y="174">
               <location>location_nor_city_4</location>
             </corner_coord>
-
             <corner_coord board="0" x="390" y="11">
               <location>location_ind_ship_1</location>
             </corner_coord>
@@ -150,7 +141,6 @@
             <corner_coord board="0" x="437" y="126">
               <location>location_ind_ship_7</location>
             </corner_coord>
-
             <corner_coord board="0" x="445" y="160">
               <location>location_ind_city_1</location>
             </corner_coord>
@@ -172,7 +162,6 @@
             <corner_coord board="0" x="239" y="16">
               <location>location_ind_city_7</location>
             </corner_coord>
-
             <corner_coord board="0" x="639" y="11">
               <location>location_far_ship_1</location>
             </corner_coord>
@@ -197,7 +186,6 @@
             <corner_coord board="0" x="712" y="144">
               <location>location_far_ship_8</location>
             </corner_coord>
-
             <corner_coord board="0" x="673" y="210">
               <location>location_far_city_1</location>
             </corner_coord>
@@ -216,7 +204,6 @@
             <corner_coord board="0" x="527" y="148">
               <location>location_far_city_6</location>
             </corner_coord>
-
             <corner_coord board="0" x="288" y="256">
               <location>location_eur_city_1</location>
             </corner_coord>
@@ -280,7 +267,6 @@
             <corner_coord board="0" x="441" y="532">
               <location>location_eur_city_21</location>
             </corner_coord>
-
             <corner_coord board="0" x="410" y="726">
               <location>location_afr_ship_1</location>
             </corner_coord>
@@ -299,7 +285,6 @@
             <corner_coord board="0" x="346" y="610">
               <location>location_afr_ship_6</location>
             </corner_coord>
-
             <corner_coord board="0" x="431" y="604">
               <location>location_afr_city_1</location>
             </corner_coord>
@@ -312,7 +297,6 @@
             <corner_coord board="0" x="579" y="606">
               <location>location_afr_city_4</location>
             </corner_coord>
-
             <corner_coord board="0" x="276" y="690">
               <location>location_sou_ship_1</location>
             </corner_coord>
@@ -331,7 +315,6 @@
             <corner_coord board="0" x="261" y="564">
               <location>location_sou_ship_6</location>
             </corner_coord>
-
             <corner_coord board="0" x="104" y="702">
               <location>location_sou_city_1</location>
             </corner_coord>
@@ -341,7 +324,6 @@
             <corner_coord board="0" x="114" y="647">
               <location>location_sou_city_3</location>
             </corner_coord>
-
             <corner_coord board="0" x="13" y="427">
               <location>location_carib_ship_1</location>
             </corner_coord>
@@ -360,7 +342,6 @@
             <corner_coord board="0" x="36" y="279">
               <location>location_carib_ship_6</location>
             </corner_coord>
-
             <corner_coord board="0" x="72" y="323">
               <location>location_carib_city_1</location>
             </corner_coord>
@@ -391,25 +372,21 @@
             <corner_coord board="0" x="216" y="493">
               <location>location_carib_city_10</location>
             </corner_coord>
-
           </location_in_action>
         </valid_types>
       </location_display>
     </location_type>
   </size>
   <!--END board token locations -->
-
   <!--Player-Piece/Token Locations-->
   <size width="30" height="30">
     <location_type type="stack">
-
       <!--Init and Startup pile-->
       <valid_types types="arc,cul,fin,pol,att,occdraw,pmt,shipdraw">
         <corner_coord board="0" x="831" y="349">
           <location>location_init_token</location>
         </corner_coord>
       </valid_types>
-
       <!--Player pieces-->
       <location_in_action action="set_side" args="0">
         <valid_types types="black">
@@ -448,10 +425,9 @@
           </valid_types>
         </location_display>
       </location_in_action>
-
       <!--Bonus tokens-->
       <valid_types types="occdraw,shipdraw,pmt,att">
-        <location_in_action action="set_side" args="0">
+        <location_in_action action="set_rotation" args="0">
           <corner_coord board="0" x="849" y="416">
             <location>location_player1_bonus_token1</location>
           </corner_coord>
@@ -465,8 +441,7 @@
             <location>location_player1_bonus_token4</location>
           </corner_coord>
         </location_in_action>
-
-        <location_in_action action="set_side" args="1">
+        <location_in_action action="set_rotation" args="180">
           <corner_coord board="0" x="849" y="323">
             <location>location_player2_bonus_token1</location>
           </corner_coord>
@@ -481,11 +456,9 @@
           </corner_coord>
         </location_in_action>
       </valid_types>
-
     </location_type>
   </size>
   <!--END Player-Piece/Token Locations-->
-
   <!--Track increment/decrement/scoring/token locations-->
   <size width="35" height="35">
     <!--Track increment/decrement/scoring locations-->
@@ -504,7 +477,6 @@
         <corner_coord board="0" x="881" y="497">
           <location>location_dec_p1_t4</location>
         </corner_coord>
-
         <!--Track increment player 1 locations-->
         <corner_coord board="0" x="988" y="389">
           <location>location_inc_p1_t1</location>
@@ -518,7 +490,6 @@
         <corner_coord board="0" x="988" y="497">
           <location>location_inc_p1_t4</location>
         </corner_coord>
-
         <!--Track decrement player 2 locations-->
         <corner_coord board="0" x="988" y="238">
           <location>location_dec_p2_t4</location>
@@ -532,7 +503,6 @@
         <corner_coord board="0" x="988" y="346">
           <location>location_dec_p2_t1</location>
         </corner_coord>
-
         <!--Track increment player 2 locations-->
         <corner_coord board="0" x="881" y="238">
           <location>location_inc_p2_t4</location>
@@ -549,10 +519,9 @@
       </location_display>
     </location_type>
     <!--END Track increment/decrement/scoring locations-->
-	
-	<!--Track scoring locations -->
-	<location_type type="cell">
-	  <location_display type="score" font_size="30">
+    <!--Track scoring locations -->
+    <location_type type="cell">
+      <location_display type="score" font_size="30">
         <!--Track scoring player 1 locations-->
         <corner_coord board="0" x="952" y="389">
           <location>location_sco_p1_t1</location>
@@ -566,7 +535,6 @@
         <corner_coord board="0" x="952" y="497">
           <location>location_sco_p1_t4</location>
         </corner_coord>
-
         <!--Track scoring player 2 locations-->
         <corner_coord board="0" x="917" y="238">
           <location>location_sco_p2_t4</location>
@@ -580,98 +548,93 @@
         <corner_coord board="0" x="917" y="346">
           <location>location_sco_p2_t1</location>
         </corner_coord>
-	  </location_display>
-	</location_type>
-	<!--End track scoring locations -->
-
+      </location_display>
+    </location_type>
+    <!--End track scoring locations -->
     <!--Track token locations-->
     <location_type type="stack">
       <location_display type="count" font_size="30">
-	  
-        <location_in_action action="set_side" args="0">
-		<location_out_action action="decrement_score" args="1,sco_p1_t1">
-		<location_in_action action="increment_score" args="1,sco_p1_t1">
-          <valid_types types="arc">
-            <corner_coord board="0" x="918" y="389">
-              <location>location_tok_p1_t1</location>
-            </corner_coord>
-          </valid_types>
+        <location_in_action action="set_rotation" args="0">
+          <location_out_action action="decrement_score" args="1,sco_p1_t1">
+            <location_in_action action="increment_score" args="1,sco_p1_t1">
+              <valid_types types="arc">
+                <corner_coord board="0" x="918" y="389">
+                  <location>location_tok_p1_t1</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
+          <location_out_action action="decrement_score" args="1,sco_p1_t2">
+            <location_in_action action="increment_score" args="1,sco_p1_t2">
+              <valid_types types="cul">
+                <corner_coord board="0" x="918" y="425">
+                  <location>location_tok_p1_t2</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
+          <location_out_action action="decrement_score" args="1,sco_p1_t3">
+            <location_in_action action="increment_score" args="1,sco_p1_t3">
+              <valid_types types="fin">
+                <corner_coord board="0" x="918" y="461">
+                  <location>location_tok_p1_t3</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
+          <location_out_action action="decrement_score" args="1,sco_p1_t4">
+            <location_in_action action="increment_score" args="1,sco_p1_t4">
+              <valid_types types="pol">
+                <corner_coord board="0" x="918" y="497">
+                  <location>location_tok_p1_t4</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
         </location_in_action>
-        </location_out_action>
-		<location_out_action action="decrement_score" args="1,sco_p1_t2">
-		<location_in_action action="increment_score" args="1,sco_p1_t2">
-          <valid_types types="cul">
-            <corner_coord board="0" x="918" y="425">
-              <location>location_tok_p1_t2</location>
-            </corner_coord>
-          </valid_types>
-        </location_in_action>        
-        </location_out_action>
-		<location_out_action action="decrement_score" args="1,sco_p1_t3">
-		<location_in_action action="increment_score" args="1,sco_p1_t3">
-          <valid_types types="fin">
-            <corner_coord board="0" x="918" y="461">
-              <location>location_tok_p1_t3</location>
-            </corner_coord>
-          </valid_types>
+        <location_in_action action="set_rotation" args="180">
+          <location_out_action action="decrement_score" args="1,sco_p2_t1">
+            <location_in_action action="increment_score" args="1,sco_p2_t1">
+              <valid_types types="arc">
+                <corner_coord board="0" x="952" y="346">
+                  <location>location_tok_p2_t1</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
+          <location_out_action action="decrement_score" args="1,sco_p2_t2">
+            <location_in_action action="increment_score" args="1,sco_p2_t2">
+              <valid_types types="cul">
+                <corner_coord board="0" x="952" y="310">
+                  <location>location_tok_p2_t2</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
+          <location_out_action action="decrement_score" args="1,sco_p2_t3">
+            <location_in_action action="increment_score" args="1,sco_p2_t3">
+              <valid_types types="fin">
+                <corner_coord board="0" x="952" y="274">
+                  <location>location_tok_p2_t3</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
+          <location_out_action action="decrement_score" args="1,sco_p2_t4">
+            <location_in_action action="increment_score" args="1,sco_p2_t4">
+              <valid_types types="pol">
+                <corner_coord board="0" x="952" y="238">
+                  <location>location_tok_p2_t4</location>
+                </corner_coord>
+              </valid_types>
+            </location_in_action>
+          </location_out_action>
         </location_in_action>
-        </location_out_action>
-		<location_out_action action="decrement_score" args="1,sco_p1_t4">
-		<location_in_action action="increment_score" args="1,sco_p1_t4">
-          <valid_types types="pol">
-            <corner_coord board="0" x="918" y="497">
-              <location>location_tok_p1_t4</location>
-            </corner_coord>
-          </valid_types>
-        </location_in_action>
-        </location_out_action>
-        </location_in_action>
-
-        <location_in_action action="set_side" args="1">
-		<location_out_action action="decrement_score" args="1,sco_p2_t1">
-		<location_in_action action="increment_score" args="1,sco_p2_t1">
-          <valid_types types="arc">
-            <corner_coord board="0" x="952" y="346">
-              <location>location_tok_p2_t1</location>
-            </corner_coord>
-          </valid_types>
-        </location_in_action>
-        </location_out_action>
-		<location_out_action action="decrement_score" args="1,sco_p2_t2">
-		<location_in_action action="increment_score" args="1,sco_p2_t2">
-          <valid_types types="cul">
-            <corner_coord board="0" x="952" y="310">
-              <location>location_tok_p2_t2</location>
-            </corner_coord>
-          </valid_types>
-        </location_in_action>
-        </location_out_action>
-		<location_out_action action="decrement_score" args="1,sco_p2_t3">
-		<location_in_action action="increment_score" args="1,sco_p2_t3">
-          <valid_types types="fin">
-            <corner_coord board="0" x="952" y="274">
-              <location>location_tok_p2_t3</location>
-            </corner_coord>
-          </valid_types>
-        </location_in_action>
-        </location_out_action>
-		<location_out_action action="decrement_score" args="1,sco_p2_t4">
-		<location_in_action action="increment_score" args="1,sco_p2_t4">
-          <valid_types types="pol">
-            <corner_coord board="0" x="952" y="238">
-              <location>location_tok_p2_t4</location>
-            </corner_coord>
-          </valid_types>
-        </location_in_action>
-        </location_out_action>
-        </location_in_action>
-
       </location_display>
     </location_type>
     <!--END Track token locations-->
   </size>
   <!--End Track locations-->
-
   <!-- solo tab player piece locations -->
   <size width="24" height="24">
     <location_type type="cell">
@@ -707,7 +670,7 @@
   </size>
   <size width="30" height="30">
     <location_type type="cell">
-      <location_in_action action="set_side" args="1">
+      <location_in_action action="set_rotation" args="180">
         <valid_types types="occdraw,shipdraw,pmt,att">
           <corner_coord board="3" x="271" y="17">
             <location>location_solo_opp_order1a</location>
@@ -738,59 +701,55 @@
     </location_type>
   </size>
   <!-- end solo tab player piece locations -->
-  
   <!-- solo tab dice locations -->
   <size width="30" height="30">
     <location_type type="cell">
-        <valid_types types="dice">
-          <corner_coord board="3" x="310" y="5">
-            <location>location_solo_dice_8</location>
-          </corner_coord>
-          <corner_coord board="3" x="310" y="40">
-            <location>location_solo_dice_6</location>
-          </corner_coord>
-          <corner_coord board="3" x="310" y="75">
-            <location>location_solo_dice_3</location>
-          </corner_coord>
-          <corner_coord board="3" x="310" y="110">
-            <location>location_solo_dice_2</location>
-          </corner_coord>
-        </valid_types>
+      <valid_types types="dice">
+        <corner_coord board="3" x="310" y="5">
+          <location>location_solo_dice_8</location>
+        </corner_coord>
+        <corner_coord board="3" x="310" y="40">
+          <location>location_solo_dice_6</location>
+        </corner_coord>
+        <corner_coord board="3" x="310" y="75">
+          <location>location_solo_dice_3</location>
+        </corner_coord>
+        <corner_coord board="3" x="310" y="110">
+          <location>location_solo_dice_2</location>
+        </corner_coord>
+      </valid_types>
     </location_type>
   </size>
   <!--End Solo tab dice locations-->
-  
   <!-- solo tab first player start location -->
   <size width="40" height="25">
     <location_type type="cell">
-        <valid_types types="firstplayer">
-          <corner_coord board="3" x="310" y="145">
-            <location>location_solo_firstplayer</location>
-          </corner_coord>
-        </valid_types>
+      <valid_types types="firstplayer">
+        <corner_coord board="3" x="310" y="145">
+          <location>location_solo_firstplayer</location>
+        </corner_coord>
+      </valid_types>
     </location_type>
   </size>
   <!--End Solo tab first player start location-->
-  
   <!-- solo tab free opp piece location -->
   <size width="40" height="130">
     <location_type type="free">
-        <valid_types types="red,white,purple,green,black,occdraw,shipdraw,pmt,att">
-          <corner_coord board="3" x="310" y="175">
-            <location>location_solo_freeopppiece</location>
-          </corner_coord>
-        </valid_types>
+      <valid_types types="red,white,purple,green,black,occdraw,shipdraw,pmt,att">
+        <corner_coord board="3" x="310" y="175">
+          <location>location_solo_freeopppiece</location>
+        </corner_coord>
+      </valid_types>
     </location_type>
   </size>
   <!--End Solo tab free opp piece location-->
-
   <!--ALL Building Locations-->
   <size width="74" height="50">
     <!--Tabbed Building Stock-->
     <location_type type="stack">
       <location_display type="count">
         <!--For knowing how many left in the stack-->
-        <location_in_action action="set_side" args="0">
+        <location_in_action action="set_rotation" args="0">
           <!--Right side up to first player-->
           <valid_types types="mus">
             <corner_coord board="1" x="2" y="2">
@@ -871,10 +830,9 @@
       </location_display>
     </location_type>
     <!--end Tabbed Building Stock-->
-
     <!--solo Tabbed Building Stock-->
     <location_type type="cell">
-      <location_in_action action="set_side" args="1">
+      <location_in_action action="set_rotation" args="180">
         <valid_types types="shi,wor,mar">
           <corner_coord board="3" x="12" y="10">
             <location>building_location_solo1</location>
@@ -933,13 +891,12 @@
       </location_in_action>
     </location_type>
     <!--end soloTabbed Building Stock-->
-
     <!--Both players building developments-->
     <location_type type="cell">
       <location_display type="no_display">
         <valid_types types="mus,par,exc,car,uni,tra,doc,the,for,gui,bar,ban,shi,wor,mar">
           <!--Player 1 building developments-->
-          <location_in_action action="set_side" args="0">
+          <location_in_action action="set_rotation" args="0">
             <!--Right side up for player 1-->
             <corner_coord board="0" x="857" y="540">
               <location>building_location_1a</location>
@@ -967,9 +924,8 @@
             </corner_coord>
           </location_in_action>
           <!--End Player 1 building developments-->
-
           <!--Player 2 building developments-->
-          <location_in_action action="set_side" args="1">
+          <location_in_action action="set_rotation" args="180">
             <!--Right side up for player 2-->
             <corner_coord board="0" x="861" y="179">
               <location>building_location_1b</location>
@@ -1003,7 +959,6 @@
     <!--End Both Players Building developments-->
   </size>
   <!--End ALL Building Locations-->
-
   <!--Building Player-Piece Locations-->
   <size width="24" height="24">
     <location_type type="cell">
@@ -1034,7 +989,6 @@
             <corner_coord board="0" x="902" y="657">
               <location>location_player1_building8_player</location>
             </corner_coord>
-
             <corner_coord board="0" x="949" y="193">
               <location>location_player2_building1_player</location>
             </corner_coord>
@@ -1065,24 +1019,20 @@
     </location_type>
   </size>
   <!--End Building Player-Piece Locations-->
-
-      <!--solo Tabbed Building First player location-->
-    <location_type type="free">
-	  <size width="255" height="285">
-        <valid_types types="firstplayer">
-          <corner_coord board="3" x="10" y="10">
-            <location>location_solo_buildingfirstplayer</location>
-          </corner_coord>
-        </valid_types>
-	  </size>
-    </location_type>
-	<!--end solo tabbed building first player location-->
-	
-	
+  <!--solo Tabbed Building First player location-->
+  <location_type type="free">
+    <size width="255" height="285">
+      <valid_types types="firstplayer">
+        <corner_coord board="3" x="10" y="10">
+          <location>location_solo_buildingfirstplayer</location>
+        </corner_coord>
+      </valid_types>
+    </size>
+  </location_type>
+  <!--end solo tabbed building first player location-->
   <!--card pieces -->
   <triple_tap action="send_to_back" args="">
-    <initial_side value="1">
-
+    <initial_rotation value="-90">
       <initial_location name="location_afr_cards">
         <piece_type type="afr">
           <sides paths="Endeavor_Cards_Afr_5.png,Endeavor_Cards_Afr_5_Left.png,Endeavor_Cards_Afr_5_UpsideDown.png">
@@ -1105,7 +1055,6 @@
           </sides>
         </piece_type>
       </initial_location>
-
       <initial_location name="location_sou_cards">
         <piece_type type="sou">
           <sides paths="Endeavor_Cards_Sou_5.png,Endeavor_Cards_Sou_5_Left.png,Endeavor_Cards_Sou_5_UpsideDown.png">
@@ -1128,7 +1077,6 @@
           </sides>
         </piece_type>
       </initial_location>
-
       <initial_location name="location_nor_cards">
         <piece_type type="nor">
           <sides paths="Endeavor_Cards_Nor_5.png,Endeavor_Cards_Nor_5_Left.png,Endeavor_Cards_Nor_5_UpsideDown.png">
@@ -1151,7 +1099,6 @@
           </sides>
         </piece_type>
       </initial_location>
-
       <initial_location name="location_ind_cards">
         <piece_type type="ind">
           <sides paths="Endeavor_Cards_Ind_5.png,Endeavor_Cards_Ind_5_Left.png,Endeavor_Cards_Ind_5_UpsideDown.png">
@@ -1174,7 +1121,6 @@
           </sides>
         </piece_type>
       </initial_location>
-
       <initial_location name="location_far_cards">
         <piece_type type="far">
           <sides paths="Endeavor_Cards_Far_5.png,Endeavor_Cards_Far_5_Left.png,Endeavor_Cards_Far_5_UpsideDown.png">
@@ -1197,10 +1143,8 @@
           </sides>
         </piece_type>
       </initial_location>
-
-    </initial_side>
-    <initial_side value="0">
-
+    </initial_rotation>
+    <initial_rotation value="0">
       <initial_location name="location_carib_cards">
         <piece_type type="carib">
           <sides paths="Endeavor_Cards_Car_5.png,Endeavor_Cards_Car_5.png,Endeavor_Cards_Car_5_UpsideDown.png">
@@ -1223,7 +1167,6 @@
           </sides>
         </piece_type>
       </initial_location>
-
       <initial_location name="location_med_cards">
         <piece_type type="med">
           <sides paths="Endeavor_Cards_Med_5.png,Endeavor_Cards_Med_5.png,Endeavor_Cards_Med_5_UpsideDown.png">
@@ -1246,7 +1189,6 @@
           </sides>
         </piece_type>
       </initial_location>
-
       <initial_location name="location_sla_cards">
         <piece_type type="sla">
           <sides paths="Endeavor_Cards_Sla_5.png,Endeavor_Cards_Sla_5.png,Endeavor_Cards_Sla_5_UpsideDown.png">
@@ -1269,15 +1211,12 @@
           </sides>
         </piece_type>
       </initial_location>
-
-    </initial_side>
+    </initial_rotation>
   </triple_tap>
   <!--end card pieces -->
-
   <!--token pieces -->
   <quad_tap action="shuffle_location" args="">
     <initial_location name="location_init_token">
-
       <piece_type type="arc">
         <sides paths="Endeavor_Arc_UpsideUp.png,Endeavor_Arc_UpsideDown.png">
           <piece>arc_1</piece>
@@ -1299,7 +1238,6 @@
           <piece>arc_17</piece>
         </sides>
       </piece_type>
-
       <piece_type type="cul">
         <sides paths="Endeavor_Cul_UpsideUp.png,Endeavor_Cul_UpsideDown.png">
           <piece>cul_1</piece>
@@ -1324,7 +1262,6 @@
           <piece>cul_20</piece>
         </sides>
       </piece_type>
-
       <piece_type type="fin">
         <sides paths="Endeavor_Fin_UpsideUp.png,Endeavor_Fin_UpsideDown.png">
           <piece>fin_1</piece>
@@ -1346,7 +1283,6 @@
           <piece>fin_17</piece>
         </sides>
       </piece_type>
-
       <piece_type type="pol">
         <sides paths="Endeavor_Pol_UpsideUp.png,Endeavor_Pol_UpsideDown.png">
           <piece>pol_1</piece>
@@ -1376,7 +1312,6 @@
           <piece>pol_25</piece>
         </sides>
       </piece_type>
-
       <piece_type type="occdraw">
         <sides paths="Endeavor_OccDraw_UpsideUp.png,Endeavor_OccDraw_UpsideDown.png">
           <piece>occdraw_1</piece>
@@ -1387,7 +1322,6 @@
           <piece>occdraw_6</piece>
         </sides>
       </piece_type>
-
       <piece_type type="shipdraw">
         <sides paths="Endeavor_ShipDraw_UpsideUp.png,Endeavor_ShipDraw_UpsideDown.png">
           <piece>shipdraw_1</piece>
@@ -1398,214 +1332,207 @@
           <piece>shipdraw_6</piece>
         </sides>
       </piece_type>
-
       <piece_type type="pmt">
         <sides paths="Endeavor_Pmt_UpsideUp.png,Endeavor_Pmt_UpsideDown.png">
           <piece>pmt_1</piece>
           <piece>pmt_2</piece>
         </sides>
       </piece_type>
-
       <piece_type type="att">
         <sides paths="Endeavor_Att_UpsideUp.png,Endeavor_Att_UpsideDown.png">
           <piece>att_1</piece>
           <piece>att_2</piece>
         </sides>
       </piece_type>
-
     </initial_location>
   </quad_tap>
   <!--end token pieces -->
-
   <!--player pieces -->
-      <initial_location name="location_black_token">
-        <piece_type type="black">
-          <sides paths="Endeavor_Player_Black.png,Endeavor_Player_Black.png,Endeavor_Player_Black_Small.png">
-            <piece>black_1</piece>
-            <piece>black_2</piece>
-            <piece>black_3</piece>
-            <piece>black_4</piece>
-            <piece>black_5</piece>
-            <piece>black_6</piece>
-            <piece>black_7</piece>
-            <piece>black_8</piece>
-            <piece>black_9</piece>
-            <piece>black_10</piece>
-            <piece>black_11</piece>
-            <piece>black_12</piece>
-            <piece>black_13</piece>
-            <piece>black_14</piece>
-            <piece>black_15</piece>
-            <piece>black_16</piece>
-            <piece>black_17</piece>
-            <piece>black_18</piece>
-            <piece>black_19</piece>
-            <piece>black_20</piece>
-            <piece>black_21</piece>
-            <piece>black_22</piece>
-            <piece>black_23</piece>
-            <piece>black_24</piece>
-            <piece>black_25</piece>
-            <piece>black_26</piece>
-            <piece>black_27</piece>
-            <piece>black_28</piece>
-            <piece>black_29</piece>
-            <piece>black_30</piece>
-          </sides>
-        </piece_type>
-      </initial_location>
-      <initial_location name="location_green_token">
-        <piece_type type="green">
-          <sides paths="Endeavor_Player_Green.png,Endeavor_Player_Green.png,Endeavor_Player_Green_Small.png">
-            <piece>green_1</piece>
-            <piece>green_2</piece>
-            <piece>green_3</piece>
-            <piece>green_4</piece>
-            <piece>green_5</piece>
-            <piece>green_6</piece>
-            <piece>green_7</piece>
-            <piece>green_8</piece>
-            <piece>green_9</piece>
-            <piece>green_10</piece>
-            <piece>green_11</piece>
-            <piece>green_12</piece>
-            <piece>green_13</piece>
-            <piece>green_14</piece>
-            <piece>green_15</piece>
-            <piece>green_16</piece>
-            <piece>green_17</piece>
-            <piece>green_18</piece>
-            <piece>green_19</piece>
-            <piece>green_20</piece>
-            <piece>green_21</piece>
-            <piece>green_22</piece>
-            <piece>green_23</piece>
-            <piece>green_24</piece>
-            <piece>green_25</piece>
-            <piece>green_26</piece>
-            <piece>green_27</piece>
-            <piece>green_28</piece>
-            <piece>green_29</piece>
-            <piece>green_30</piece>
-          </sides>
-        </piece_type>
-      </initial_location>
-      <initial_location name="location_purple_token">
-        <piece_type type="purple">
-          <sides paths="Endeavor_Player_Purple.png,Endeavor_Player_Purple.png,Endeavor_Player_Purple_Small.png">
-            <piece>purple_1</piece>
-            <piece>purple_2</piece>
-            <piece>purple_3</piece>
-            <piece>purple_4</piece>
-            <piece>purple_5</piece>
-            <piece>purple_6</piece>
-            <piece>purple_7</piece>
-            <piece>purple_8</piece>
-            <piece>purple_9</piece>
-            <piece>purple_10</piece>
-            <piece>purple_11</piece>
-            <piece>purple_12</piece>
-            <piece>purple_13</piece>
-            <piece>purple_14</piece>
-            <piece>purple_15</piece>
-            <piece>purple_16</piece>
-            <piece>purple_17</piece>
-            <piece>purple_18</piece>
-            <piece>purple_19</piece>
-            <piece>purple_20</piece>
-            <piece>purple_21</piece>
-            <piece>purple_22</piece>
-            <piece>purple_23</piece>
-            <piece>purple_24</piece>
-            <piece>purple_25</piece>
-            <piece>purple_26</piece>
-            <piece>purple_27</piece>
-            <piece>purple_28</piece>
-            <piece>purple_29</piece>
-            <piece>purple_30</piece>
-          </sides>
-        </piece_type>
-      </initial_location>
-      <initial_location name="location_red_token">
-        <piece_type type="red">
-          <sides paths="Endeavor_Player_Red.png,Endeavor_Player_Red.png,Endeavor_Player_Red_Small.png">
-            <piece>red_1</piece>
-            <piece>red_2</piece>
-            <piece>red_3</piece>
-            <piece>red_4</piece>
-            <piece>red_5</piece>
-            <piece>red_6</piece>
-            <piece>red_7</piece>
-            <piece>red_8</piece>
-            <piece>red_9</piece>
-            <piece>red_10</piece>
-            <piece>red_11</piece>
-            <piece>red_12</piece>
-            <piece>red_13</piece>
-            <piece>red_14</piece>
-            <piece>red_15</piece>
-            <piece>red_16</piece>
-            <piece>red_17</piece>
-            <piece>red_18</piece>
-            <piece>red_19</piece>
-            <piece>red_20</piece>
-            <piece>red_21</piece>
-            <piece>red_22</piece>
-            <piece>red_23</piece>
-            <piece>red_24</piece>
-            <piece>red_25</piece>
-            <piece>red_26</piece>
-            <piece>red_27</piece>
-            <piece>red_28</piece>
-            <piece>red_29</piece>
-            <piece>red_30</piece>
-          </sides>
-        </piece_type>
-      </initial_location>
-      <initial_location name="location_white_token">
-        <piece_type type="white">
-          <sides paths="Endeavor_Player_White.png,Endeavor_Player_White.png,Endeavor_Player_White_Small.png">
-            <piece>white_1</piece>
-            <piece>white_2</piece>
-            <piece>white_3</piece>
-            <piece>white_4</piece>
-            <piece>white_5</piece>
-            <piece>white_6</piece>
-            <piece>white_7</piece>
-            <piece>white_8</piece>
-            <piece>white_9</piece>
-            <piece>white_10</piece>
-            <piece>white_11</piece>
-            <piece>white_12</piece>
-            <piece>white_13</piece>
-            <piece>white_14</piece>
-            <piece>white_15</piece>
-            <piece>white_16</piece>
-            <piece>white_17</piece>
-            <piece>white_18</piece>
-            <piece>white_19</piece>
-            <piece>white_20</piece>
-            <piece>white_21</piece>
-            <piece>white_22</piece>
-            <piece>white_23</piece>
-            <piece>white_24</piece>
-            <piece>white_25</piece>
-            <piece>white_26</piece>
-            <piece>white_27</piece>
-            <piece>white_28</piece>
-            <piece>white_29</piece>
-            <piece>white_30</piece>
-          </sides>
-        </piece_type>
-      </initial_location>
+  <initial_location name="location_black_token">
+    <piece_type type="black">
+      <sides paths="Endeavor_Player_Black.png,Endeavor_Player_Black.png,Endeavor_Player_Black_Small.png">
+        <piece>black_1</piece>
+        <piece>black_2</piece>
+        <piece>black_3</piece>
+        <piece>black_4</piece>
+        <piece>black_5</piece>
+        <piece>black_6</piece>
+        <piece>black_7</piece>
+        <piece>black_8</piece>
+        <piece>black_9</piece>
+        <piece>black_10</piece>
+        <piece>black_11</piece>
+        <piece>black_12</piece>
+        <piece>black_13</piece>
+        <piece>black_14</piece>
+        <piece>black_15</piece>
+        <piece>black_16</piece>
+        <piece>black_17</piece>
+        <piece>black_18</piece>
+        <piece>black_19</piece>
+        <piece>black_20</piece>
+        <piece>black_21</piece>
+        <piece>black_22</piece>
+        <piece>black_23</piece>
+        <piece>black_24</piece>
+        <piece>black_25</piece>
+        <piece>black_26</piece>
+        <piece>black_27</piece>
+        <piece>black_28</piece>
+        <piece>black_29</piece>
+        <piece>black_30</piece>
+      </sides>
+    </piece_type>
+  </initial_location>
+  <initial_location name="location_green_token">
+    <piece_type type="green">
+      <sides paths="Endeavor_Player_Green.png,Endeavor_Player_Green.png,Endeavor_Player_Green_Small.png">
+        <piece>green_1</piece>
+        <piece>green_2</piece>
+        <piece>green_3</piece>
+        <piece>green_4</piece>
+        <piece>green_5</piece>
+        <piece>green_6</piece>
+        <piece>green_7</piece>
+        <piece>green_8</piece>
+        <piece>green_9</piece>
+        <piece>green_10</piece>
+        <piece>green_11</piece>
+        <piece>green_12</piece>
+        <piece>green_13</piece>
+        <piece>green_14</piece>
+        <piece>green_15</piece>
+        <piece>green_16</piece>
+        <piece>green_17</piece>
+        <piece>green_18</piece>
+        <piece>green_19</piece>
+        <piece>green_20</piece>
+        <piece>green_21</piece>
+        <piece>green_22</piece>
+        <piece>green_23</piece>
+        <piece>green_24</piece>
+        <piece>green_25</piece>
+        <piece>green_26</piece>
+        <piece>green_27</piece>
+        <piece>green_28</piece>
+        <piece>green_29</piece>
+        <piece>green_30</piece>
+      </sides>
+    </piece_type>
+  </initial_location>
+  <initial_location name="location_purple_token">
+    <piece_type type="purple">
+      <sides paths="Endeavor_Player_Purple.png,Endeavor_Player_Purple.png,Endeavor_Player_Purple_Small.png">
+        <piece>purple_1</piece>
+        <piece>purple_2</piece>
+        <piece>purple_3</piece>
+        <piece>purple_4</piece>
+        <piece>purple_5</piece>
+        <piece>purple_6</piece>
+        <piece>purple_7</piece>
+        <piece>purple_8</piece>
+        <piece>purple_9</piece>
+        <piece>purple_10</piece>
+        <piece>purple_11</piece>
+        <piece>purple_12</piece>
+        <piece>purple_13</piece>
+        <piece>purple_14</piece>
+        <piece>purple_15</piece>
+        <piece>purple_16</piece>
+        <piece>purple_17</piece>
+        <piece>purple_18</piece>
+        <piece>purple_19</piece>
+        <piece>purple_20</piece>
+        <piece>purple_21</piece>
+        <piece>purple_22</piece>
+        <piece>purple_23</piece>
+        <piece>purple_24</piece>
+        <piece>purple_25</piece>
+        <piece>purple_26</piece>
+        <piece>purple_27</piece>
+        <piece>purple_28</piece>
+        <piece>purple_29</piece>
+        <piece>purple_30</piece>
+      </sides>
+    </piece_type>
+  </initial_location>
+  <initial_location name="location_red_token">
+    <piece_type type="red">
+      <sides paths="Endeavor_Player_Red.png,Endeavor_Player_Red.png,Endeavor_Player_Red_Small.png">
+        <piece>red_1</piece>
+        <piece>red_2</piece>
+        <piece>red_3</piece>
+        <piece>red_4</piece>
+        <piece>red_5</piece>
+        <piece>red_6</piece>
+        <piece>red_7</piece>
+        <piece>red_8</piece>
+        <piece>red_9</piece>
+        <piece>red_10</piece>
+        <piece>red_11</piece>
+        <piece>red_12</piece>
+        <piece>red_13</piece>
+        <piece>red_14</piece>
+        <piece>red_15</piece>
+        <piece>red_16</piece>
+        <piece>red_17</piece>
+        <piece>red_18</piece>
+        <piece>red_19</piece>
+        <piece>red_20</piece>
+        <piece>red_21</piece>
+        <piece>red_22</piece>
+        <piece>red_23</piece>
+        <piece>red_24</piece>
+        <piece>red_25</piece>
+        <piece>red_26</piece>
+        <piece>red_27</piece>
+        <piece>red_28</piece>
+        <piece>red_29</piece>
+        <piece>red_30</piece>
+      </sides>
+    </piece_type>
+  </initial_location>
+  <initial_location name="location_white_token">
+    <piece_type type="white">
+      <sides paths="Endeavor_Player_White.png,Endeavor_Player_White.png,Endeavor_Player_White_Small.png">
+        <piece>white_1</piece>
+        <piece>white_2</piece>
+        <piece>white_3</piece>
+        <piece>white_4</piece>
+        <piece>white_5</piece>
+        <piece>white_6</piece>
+        <piece>white_7</piece>
+        <piece>white_8</piece>
+        <piece>white_9</piece>
+        <piece>white_10</piece>
+        <piece>white_11</piece>
+        <piece>white_12</piece>
+        <piece>white_13</piece>
+        <piece>white_14</piece>
+        <piece>white_15</piece>
+        <piece>white_16</piece>
+        <piece>white_17</piece>
+        <piece>white_18</piece>
+        <piece>white_19</piece>
+        <piece>white_20</piece>
+        <piece>white_21</piece>
+        <piece>white_22</piece>
+        <piece>white_23</piece>
+        <piece>white_24</piece>
+        <piece>white_25</piece>
+        <piece>white_26</piece>
+        <piece>white_27</piece>
+        <piece>white_28</piece>
+        <piece>white_29</piece>
+        <piece>white_30</piece>
+      </sides>
+    </piece_type>
+  </initial_location>
   <!--end player pieces -->
-
   <!--track pieces (increment,decrement,scoring)-->
   <draggable value="0">
-
     <!--track increment/decrement pieces-->
     <sides paths="Endeavor_transparent.png">
-
       <!--track increment pieces-->
       <single_tap action="increment_score" args="1,sco_p1_t1">
         <!--increment the scoring piece-->
@@ -1649,7 +1576,6 @@
           <piece>inc_p2_t4</piece>
         </initial_location>
       </single_tap>
-
       <!--track decrement pieces-->
       <single_tap action="decrement_score" args="1,sco_p1_t1">
         <!--decrement the scoring piece-->
@@ -1693,45 +1619,41 @@
           <piece>dec_p2_t4</piece>
         </initial_location>
       </single_tap>
-
     </sides>
     <!--END track increment/decrement pieces-->
-
     <!--Track scoring pieces-->
-	<points value="0">
-    <sides paths="Endeavor_transparent.png">
-      <initial_location name="location_sco_p1_t1">
-        <piece>sco_p1_t1</piece>
-      </initial_location>
-      <initial_location name="location_sco_p1_t2">
-        <piece>sco_p1_t2</piece>
-      </initial_location>
-      <initial_location name="location_sco_p1_t3">
-        <piece>sco_p1_t3</piece>
-      </initial_location>
-      <initial_location name="location_sco_p1_t4">
-        <piece>sco_p1_t4</piece>
-      </initial_location>
-    </sides>
-
-    <sides paths="Endeavor_transparent.png">
-      <initial_location name="location_sco_p2_t1">
-        <piece>sco_p2_t1</piece>
-      </initial_location>
-      <initial_location name="location_sco_p2_t2">
-        <piece>sco_p2_t2</piece>
-      </initial_location>
-      <initial_location name="location_sco_p2_t3">
-        <piece>sco_p2_t3</piece>
-      </initial_location>
-      <initial_location name="location_sco_p2_t4">
-        <piece>sco_p2_t4</piece>
-      </initial_location>
-    </sides>
-	</points>
+    <points value="0">
+      <sides paths="Endeavor_transparent.png">
+        <initial_location name="location_sco_p1_t1">
+          <piece>sco_p1_t1</piece>
+        </initial_location>
+        <initial_location name="location_sco_p1_t2">
+          <piece>sco_p1_t2</piece>
+        </initial_location>
+        <initial_location name="location_sco_p1_t3">
+          <piece>sco_p1_t3</piece>
+        </initial_location>
+        <initial_location name="location_sco_p1_t4">
+          <piece>sco_p1_t4</piece>
+        </initial_location>
+      </sides>
+      <sides paths="Endeavor_transparent.png">
+        <initial_location name="location_sco_p2_t1">
+          <piece>sco_p2_t1</piece>
+        </initial_location>
+        <initial_location name="location_sco_p2_t2">
+          <piece>sco_p2_t2</piece>
+        </initial_location>
+        <initial_location name="location_sco_p2_t3">
+          <piece>sco_p2_t3</piece>
+        </initial_location>
+        <initial_location name="location_sco_p2_t4">
+          <piece>sco_p2_t4</piece>
+        </initial_location>
+      </sides>
+    </points>
   </draggable>
   <!--END track pieces-->
-
   <!--First player piece-->
   <piece_type type="firstplayer">
     <initial_location name="location_solo_firstplayer">
@@ -1741,38 +1663,35 @@
     </initial_location>
   </piece_type>
   <!--End First player Pieces-->
-
   <!--Dice pieces-->
   <piece_type type="dice">
-  <single_tap action="random_side" args="v2">
-  <draggable value="0">
-    <initial_location name="location_solo_dice_8">
-      <sides paths="Endeavor_Dice_8.png,Endeavor_Dice_1.png,Endeavor_Dice_2.png,Endeavor_Dice_3.png,Endeavor_Dice_4.png,Endeavor_Dice_5.png,Endeavor_Dice_6.png,Endeavor_Dice_7.png">
-        <piece>dice_8</piece>
-      </sides>
-    </initial_location>
-    <initial_location name="location_solo_dice_6">
-      <sides paths="Endeavor_Dice_6.png,Endeavor_Dice_1.png,Endeavor_Dice_2.png,Endeavor_Dice_3.png,Endeavor_Dice_4.png,Endeavor_Dice_5.png">
-        <piece>dice_6</piece>
-      </sides>
-    </initial_location>
-    <initial_location name="location_solo_dice_3">
-      <sides paths="Endeavor_Dice_3.png,Endeavor_Dice_1.png,Endeavor_Dice_2.png">
-        <piece>dice_3</piece>
-      </sides>
-    </initial_location>
-    <initial_location name="location_solo_dice_2">
-      <sides paths="Endeavor_Dice_2.png,Endeavor_Dice_1.png">
-        <piece>dice_2</piece>
-      </sides>
-    </initial_location>
-  </draggable>
-  </single_tap>	
+    <single_tap action="random_side" args="v2">
+      <draggable value="0">
+        <initial_location name="location_solo_dice_8">
+          <sides paths="Endeavor_Dice_8.png,Endeavor_Dice_1.png,Endeavor_Dice_2.png,Endeavor_Dice_3.png,Endeavor_Dice_4.png,Endeavor_Dice_5.png,Endeavor_Dice_6.png,Endeavor_Dice_7.png">
+            <piece>dice_8</piece>
+          </sides>
+        </initial_location>
+        <initial_location name="location_solo_dice_6">
+          <sides paths="Endeavor_Dice_6.png,Endeavor_Dice_1.png,Endeavor_Dice_2.png,Endeavor_Dice_3.png,Endeavor_Dice_4.png,Endeavor_Dice_5.png">
+            <piece>dice_6</piece>
+          </sides>
+        </initial_location>
+        <initial_location name="location_solo_dice_3">
+          <sides paths="Endeavor_Dice_3.png,Endeavor_Dice_1.png,Endeavor_Dice_2.png">
+            <piece>dice_3</piece>
+          </sides>
+        </initial_location>
+        <initial_location name="location_solo_dice_2">
+          <sides paths="Endeavor_Dice_2.png,Endeavor_Dice_1.png">
+            <piece>dice_2</piece>
+          </sides>
+        </initial_location>
+      </draggable>
+    </single_tap>
   </piece_type>
   <!--End Dice Pieces-->
-  
   <!--Building pieces; they all start in stock tab; they all have a different orientation for each player-->
-
   <piece_type type="mus">
     <initial_location name="building_location_mus">
       <sides paths="Endeavor_Buildings_Museum.png,Endeavor_Buildings_Museum_UpsideDown.png">
@@ -1909,6 +1828,4 @@
     </initial_location>
   </piece_type>
   <!--End Building Pieces-->
-
-
 </game>
