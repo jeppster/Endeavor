@@ -414,7 +414,7 @@
             <location>location_white_token</location>
           </corner_coord>
         </valid_types>
-        <location_display type="count">
+        <location_display type="count" font_size="30">
           <valid_types types="black,green,purple,red,white">
             <corner_coord board="0" x="774" y="704">
               <location>location_player1_population</location>
